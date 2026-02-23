@@ -47,7 +47,7 @@ This project analyzes the **CS Global Macro Index at 2x Vol Net of 95 bps** (man
 - Model comparison via R-squared and information criteria
 - Factor correlation analysis
 
-## 📊 Results
+## 📊 Results(Within the same time interval (2006-09-30 00:00:00 to 2025-01-31 00:00:00))
 
 ### 1. FF5 Model Limitations
 - **Low Explanatory Power**: R² = 0.1166 (only 11.7% variance explained)
