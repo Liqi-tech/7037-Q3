@@ -24,14 +24,14 @@ This project analyzes the **CS Global Macro Index at 2x Vol Net of 95 bps** (man
 
 
 ### 📈 Data Sources
-| Factor | Source | Series | Period |
-|--------|--------|--------|--------|
-| Fund Returns | Credit Suisse | CS Global Macro Index | 2006-2025 |
-| FF5 Factors | French Data Library | Fama-French 5 Factors | 1963-2025 |
-| USD Exchange Rate | FRED | DTWEXBGS Index | 2006-2025 |
-| Bond Factor | iShares | IEF ETF Total Return | 2002-2026 |
-| Commodity Factor | iShares | GSG ETF Total Return | 2006-2026 |
-| Momentum Factor | AQR | TSMOM Factor Returns | 1985-2025 |
+| Data | Column Name | Source | Series | Period |
+|--------|--------|--------|--------|--------|
+| Fund Returns | monthly_return、excess_return | Credit Suisse | CS Global Macro Index | 2006-2025 |
+| FF5 Factors | mkt_rf、smb、hml、rmw、cma | French Data Library | Fama-French 5 Factors | 1963-2025 |
+| USD Exchange Rate | USD_FX | FRED | DTWEXBGS Index | 2006-2025 |
+| Bond Factor | BOND | iShares | IEF ETF Total Return | 2002-2026 |
+| Commodity Factor | COMM | iShares | GSG ETF Total Return | 2006-2026 |
+| Momentum Factor | TSMOM | AQR | TSMOM Factor Returns | 1985-2025 |
 
 ### Regression Models
 **FF5 Benchmark Model:**
